@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Welcome to the portfolio of shubham Pandey</title>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/a.webp" alt="logos" class="logo">
+                <ul id="side-menu">
+                    
+                   
+                    <li><a href="#header" style="left:60%;">Home</a></li>
+                    <li><a href="#about" style="left:65%;">About</a></li>
+                    <li><a href="#services" style="left:70%;">Services</a></li>
+                    <li><a href="#portfolio" style="left:77%;">Portfolio</a></li>
+                    <li><a href="#contact" style="left:83%;">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" style="color:#192a56;"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" style="color:#192a56;"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span><br> Shubham</span><br> Pandey <br>from Nepal </h1>
+            </div>
+        </div>
+            
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/82443187_1026731114346937_4734394535449198592_n.jpg" alt="dp" class="dp">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="title1">Hi. I am Shubham . I am a hard-working engineering undergraduate currently pursuing my B.tech degree from SRM University AP. I am a coding and sports enthusiast. I am a core-member of E-Cell and Web development intern at CodeClause.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C and C++ </span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Java and JavaScript</span></li>
+                            <li><span>Html & CSS & React </span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Core-Member at ProductKraft</span><br>We organise different workshops on different technology.I have been part of this community for one year now.We have organised workshops on Drone , AIML and Blockchain. </li>
+                            <li><span>Web-Development Intern at CodeClause</span><br>I am an intern at CodeClause</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th-Secondary Level </span><br>I pursued my secondary level from Kadambari Academy school and I have passed my secondary level with 83%.</li>
+                            <li><span>12th-Higher Secondary Level </span><br>I pursued my higher secondary level from Kathmandu Model Higher Secondary School and I have passed my higher secondary level with 86% in science. </li>
+                            <li><span>B.Tech</span><br>I am currently pursuing my B.tech degree in Computer Science and Engineering from SRM University AP.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h1>Web Design</h1>
+                    
+                    <p>I know HTML, CSS, JavaScript and React with which i can design the front-end . I am learning for back-end development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h1>Data Science</h1>
+                    <p>I have certification in Python from HackerRank. I know Python, Numpy, Pandas, Matplotlib and Tensorflow with which i can work as a data scientist.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h1>Java App design</h1>
+                    <p>I have certification in Java from HackerRank. I have made some java apps like music player, camera .</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/fiPy.jpeg" alt="finance">
+                    <div class="layer">
+                        <h3 style="font-size:1.5rem;">Financial Assistance</h3>
+                        <p>Financial assistance refers share purchase, assistance given by a company for the purchase of its shares or those of its holding companies. The purpose of this project is to predict stock price of its holding companies using some of the header files Matplotlib, Mplfinance, Pandas, Pickle, Datatime and the numerous types of functions. </p>
+                        <a href="FINANCIAL ASSISTANCE.pdf" preview><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Best-employee-management-system.jpg" alt="Hangman" height="270px">
+                    <div class="layer">
+                        <h3 style="font-size:1.5rem;">Employee-Management System</h3>
+                        <p>Employee Management System is a program that aims at storing ,
+                            manipulating, deleting,updating employee data such as name , id, number ,
+                            salary , address.
+                        </p>
+                        <a href="soloCPPprojectEmp.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/jira-ticket.jpeg" alt="jiraticket" height="270px">
+                    <div class="layer">
+                        <h3 style="font-size:1.5rem;">Jira ticket </h3>
+                        <p>
+                            Jira is a suite of agile work management solutions that powers collaboration across all teams from concept to customer, empowering you to do the best work of your life, together. Jira offers several products and deployment options that are purpose-built for Software, IT, Business, Ops teams, and more.</p>
+                        <a href="jira_ticket"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:capitalshubham2@gmail.com" style="text-decoration:none; color:white;">  capitalshubham2@gmail.com</a>   </p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i><a href="tel:9334951868" style="text-decoration:none; color:white;">  9334951868</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100010301733392&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/shubhamp367/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shubham-pandey-769ab91b4/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/shubhamPandey31201"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                    <a href="images/MyResume.pdf" download class="btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="10"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright Ⓒ Shubham. Made with  <i class="fa-solid fa-heart"></i> CodeClause</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("side-menu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-10rem";
+        }
+    </script>
+    
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzQPJmLPgzNWo2sly5K0-me-RA1DC39rdiTLeNTUkFUrK9hSPL8yTKO93yvBHizzi_NOg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },1000)
+                form.reset()
+        
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+        
+    
+   
+    
+</body>
+</html>
